@@ -1,0 +1,6 @@
+cargo init
+
+cargo run
+
+rustc main.rs
+./main
