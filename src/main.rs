@@ -11,20 +11,22 @@ mod lib;
 mod auth;
 mod libs;
 
+mod dump;
+
 fn main() {
 
     // let user = crate::auth::model::Usuario::create("Felipe");
 
-    auth::model::User::create("Felipe");
+    // auth::model::User::create("Felipe");
 
-    home::run("Felipe Pinheiro dos Santos");
+    // home::run("Felipe Pinheiro dos Santos");
 
-    let name: &str = home::run_with_return("Felipe Pinheiro dos Santos");
+    // let name: &str = home::run_with_return("Felipe Pinheiro dos Santos");
 
-    println!("{name}");
+    // println!("{name}");
 
-    println!("{}", name);
+    // println!("{}", name);
 
-    println!("{}", lib::get("Felipe P. Via módulo *****get****"))
+    // println!("{}", lib::get("Felipe P. Via módulo *****get****"))
 
 }
