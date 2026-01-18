@@ -8,7 +8,14 @@ mod home;
 #[path="libs/functions.rs"]
 mod lib;
 
+mod auth;
+mod libs;
+
 fn main() {
+
+    // let user = crate::auth::model::Usuario::create("Felipe");
+
+    auth::model::User::create("Felipe");
 
     home::run("Felipe Pinheiro dos Santos");
 
