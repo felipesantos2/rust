@@ -1,4 +1,4 @@
-name: rust-docker
+# name: rust-docker
 
 services:
   server:
@@ -9,7 +9,7 @@ services:
     # faz o container ficar rodando
     stdin_open: true
     # working_dir: /app
-    # command: 'apk upgrade'
+    # command: "cargo install"
     restart: always
     volumes:
       - .:/app
