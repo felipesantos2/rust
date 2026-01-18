@@ -14,16 +14,22 @@
 // mod dump;
 
 fn main() {
-    
+
     // arrays
     let a: [i16; 9] = [10, 30, 50, 60, 70, 70, 70, 70, 60];
     // tuplas
     let b = (10, 30, 50, 60, 70, 70, 70, 70, "Felipe");
+    // vector
+    // let v = vec![1, 2, 5];
+
     
     println!("{}", a[0]);
 
     println!("{}", b.8);
     
+    
+    // println!("{}", v);
+
 
     // let user = crate::auth::model::Usuario::create("Felipe");
 
