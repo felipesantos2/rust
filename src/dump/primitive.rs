@@ -11,7 +11,7 @@
 // }
 
 //
-// tupas -> agrapa tipos diferentes, mas com tamanho fixo
+// tupas -> agrupa tipos diferentes, mas com tamanho fixo
 
 // fn my_funct2() {
 //     (true, true, false);
